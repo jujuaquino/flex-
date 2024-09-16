@@ -1,0 +1,61 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+    margin: 20px;
+}
+
+p{
+     background-color: rgb(67, 130, 67);
+
+}
+//propriedades: display: flax;
+// coloca tofos os filhos um ao lao do outro
+// justify-content- alinhar no eixo x largura
+.container1{
+    display: flex;
+    //ativa o flexbox
+    justify-content: center;
+    //alinha ao centro -largura
+    border: solid rgb(22, 116, 4);
+
+}
+
+.item{
+    background-color: rgb(149, 179, 146);
+    border: solid;
+}
+
+section{
+    margin: 10px 0;
+}
+
+.container2{
+    border: solid rgb(22, 116, 4);
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.container3{
+    border: solid rgb(22, 116, 4);
+    display: flex;
+    justify-content: space-around;
+    //space-around - espaço ao redor
+}
+
+.container4{
+    border: solid rgb(22, 116, 4);
+    display: flex;
+    justify-content: space-between;
+    //espaço entre a tag
+}
+
+.container5{
+    border: solid rgb(22, 116, 4);
+    display: flex;
+    justify-content: space-evenly;
+    //espaço igual ao redor das tags
+}
